@@ -8,6 +8,7 @@ ENV PYTHONUNBUFFERED=1
 RUN apk update && \
     apk add --no-cache \
         git \
+        openssh \
         python3 \
         py3-pip \
         build-base \
